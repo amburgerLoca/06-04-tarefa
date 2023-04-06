@@ -1,0 +1,36 @@
+header{
+    background: rgb(62, 100, 133); /* cor de fundo*/
+    padding: 20px 0;
+
+}
+
+.cabecalho{
+    position: relative; /*txto no meio */
+    width: 500px;  /* largura da caixa */
+    margin: 0 auto;  /* calcula margem */
+
+}
+
+nav{
+    position: absolute; /* ocupa todo espaço */
+    top: 110px; /* ficar no topo */
+    right: 0; /* alinhamento a direita */
+}
+
+nav li{
+    display: inline; /* ficar na horizoltal */
+    margin: 0 0 0 15px; /* espaço para esquerda */
+}
+
+nav a{
+    text-transform: uppercase; /* maiusculo */
+    color: aqua; /* cor letra */
+    font-weight: bold; /* texto */
+    font-size: 22px; /* tamanho texto */
+    text-decoration:none; /*  tirar sublinhado*/
+}
+
+nav a:hover{
+    color: rgb(234, 10, 144);
+    text-decoration: underline; /* colocar o sublinhado  */
+}
